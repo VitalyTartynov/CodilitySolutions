@@ -57,6 +57,7 @@
     <Compile Include="09 - Maximum slice problem\MaxDoubleSliceSum.cs" />
     <Compile Include="09 - Maximum slice problem\MaxProfit.cs" />
     <Compile Include="09 - Maximum slice problem\MaxSliceSum.cs" />
+    <Compile Include="11 - Sieve of Eratosthenes\CountSemiprimes.cs" />
     <Compile Include="16 - Greedy algorithms\TieRopes.cs" />
     <Compile Include="FakeMain.cs" />
     <Compile Include="FizzBuzz.cs" />
