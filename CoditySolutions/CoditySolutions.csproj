@@ -52,6 +52,7 @@
     <Compile Include="5 - Prefix Sums\CountDiv.cs" />
     <Compile Include="2 - Arrays\CyclicRotation.cs" />
     <Compile Include="8 - Leader\Dominator.cs" />
+    <Compile Include="9 - Maximum slice problem\MaxProfit.cs" />
     <Compile Include="FakeMain.cs" />
     <Compile Include="FizzBuzz.cs" />
     <Compile Include="3 - Time Complexity\FrogJmp.cs" />
