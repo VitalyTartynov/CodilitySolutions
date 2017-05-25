@@ -1,7 +1,11 @@
-﻿namespace CoditySolutions
+﻿using NUnit.Framework;
+
+namespace CoditySolutions
 {
+    [TestFixture]
     public class CyclicRotation
     {
+        // 100/100
         public int[] solution(int[] A, int K)
         {
             for (int k = 0; k < K; k++)
@@ -14,15 +18,17 @@
                     else
                         shifted[index] = A[index - 1];
                 }
-
-                /*foreach (var i in shifted)
-                    Console.Write(i + " ");
-                Console.WriteLine();*/
-
+                
                 A = shifted;
             }
 
             return A;
+        }
+
+        [TestCase(new [] {3, 8, 9, 7, 6}, 3, new [] {9, 7, 6, 3, 8})]
+        public void Tests(int[] inputArray, int inputK, int[] expectedResult)
+        {
+            Assert.AreEqual(expectedResult, solution(inputArray, inputK));
         }
     }
 }
