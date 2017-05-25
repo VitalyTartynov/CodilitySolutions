@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26403.7
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{E7B34DDE-D956-4518-8B21-38EED254B674}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoditySolutions", "CoditySolutions\CoditySolutions.csproj", "{E7B34DDE-D956-4518-8B21-38EED254B674}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

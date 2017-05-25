@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Test
+namespace CoditySolutions
 {
     public class StoneWall
     {

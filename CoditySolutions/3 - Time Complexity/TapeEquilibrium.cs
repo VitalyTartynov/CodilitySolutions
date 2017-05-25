@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Test
+namespace CoditySolutions
 {
     public class TapeEquilibrium
     {
