@@ -45,27 +45,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="1 - Iterations\BinaryGap.cs" />
-    <Compile Include="4 - Counting Elements\MaxCounters.cs" />
-    <Compile Include="4 - Counting Elements\MissingInteger.cs" />
-    <Compile Include="5 - Prefix Sums\PassingCars.cs" />
-    <Compile Include="7 - Stacks and Queues\StoneWall.cs" />
-    <Compile Include="5 - Prefix Sums\CountDiv.cs" />
-    <Compile Include="2 - Arrays\CyclicRotation.cs" />
-    <Compile Include="8 - Leader\Dominator.cs" />
-    <Compile Include="9 - Maximum slice problem\MaxDoubleSliceSum.cs" />
-    <Compile Include="9 - Maximum slice problem\MaxProfit.cs" />
-    <Compile Include="9 - Maximum slice problem\MaxSliceSum.cs" />
+    <Compile Include="01 - Iterations\BinaryGap.cs" />
+    <Compile Include="04 - Counting Elements\MaxCounters.cs" />
+    <Compile Include="04 - Counting Elements\MissingInteger.cs" />
+    <Compile Include="05 - Prefix Sums\PassingCars.cs" />
+    <Compile Include="06 - Sorting\Distinct.cs" />
+    <Compile Include="07 - Stacks and Queues\StoneWall.cs" />
+    <Compile Include="05 - Prefix Sums\CountDiv.cs" />
+    <Compile Include="02 - Arrays\CyclicRotation.cs" />
+    <Compile Include="08 - Leader\Dominator.cs" />
+    <Compile Include="09 - Maximum slice problem\MaxDoubleSliceSum.cs" />
+    <Compile Include="09 - Maximum slice problem\MaxProfit.cs" />
+    <Compile Include="09 - Maximum slice problem\MaxSliceSum.cs" />
+    <Compile Include="16 - Greedy algorithms\TieRopes.cs" />
     <Compile Include="FakeMain.cs" />
     <Compile Include="FizzBuzz.cs" />
-    <Compile Include="3 - Time Complexity\FrogJmp.cs" />
-    <Compile Include="4 - Counting Elements\FrogRiverOne.cs" />
-    <Compile Include="2 - Arrays\OddOccurrencesInArray.cs" />
-    <Compile Include="4 - Counting Elements\PermCheck.cs" />
-    <Compile Include="3 - Time Complexity\PermMissingElem.cs" />
+    <Compile Include="03 - Time Complexity\FrogJmp.cs" />
+    <Compile Include="04 - Counting Elements\FrogRiverOne.cs" />
+    <Compile Include="02 - Arrays\OddOccurrencesInArray.cs" />
+    <Compile Include="04 - Counting Elements\PermCheck.cs" />
+    <Compile Include="03 - Time Complexity\PermMissingElem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="3 - Time Complexity\TapeEquilibrium.cs" />
-    <Compile Include="6 - Sorting\Triangle.cs" />
+    <Compile Include="03 - Time Complexity\TapeEquilibrium.cs" />
+    <Compile Include="06 - Sorting\Triangle.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
