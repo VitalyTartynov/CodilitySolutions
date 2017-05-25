@@ -44,7 +44,7 @@
   <ItemGroup>
     <Compile Include="1 - Iterations\BinaryGap.cs" />
     <Compile Include="4 - Counting Elements\MaxCounters.cs" />
-    <Compile Include="MissingInteger.cs" />
+    <Compile Include="5 - Prefix Sums\PassingCars.cs" />
     <Compile Include="7 - Stacks and Queues\StoneWall.cs" />
     <Compile Include="5 - Prefix Sums\CountDiv.cs" />
     <Compile Include="2 - Arrays\CyclicRotation.cs" />
