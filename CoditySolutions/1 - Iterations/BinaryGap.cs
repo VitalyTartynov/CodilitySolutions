@@ -1,9 +1,12 @@
 ﻿using System;
+using NUnit.Framework;
 
 namespace CoditySolutions
 {
+    [TestFixture]
     class Solution
     {
+        // 100/100
         public int BinaryGap(int N)
         {
             if (N <= 0)
@@ -14,8 +17,7 @@ namespace CoditySolutions
             int current = 0;
 
             var inBinary = Convert.ToString(N, 2);
-            // Console.WriteLine(inBinary);
-
+            
             for (int index = 0; index < inBinary.Length; index++)
             {
                 if (inBinary[index] == '1')
@@ -26,11 +28,9 @@ namespace CoditySolutions
                         current = 0;
                         continue;
                     }
-                    else
-                    {
-                        inGap = true;
-                        continue;
-                    }
+
+                    inGap = true;
+                    continue;
                 }
 
                 if (inGap)
@@ -40,6 +40,15 @@ namespace CoditySolutions
             }
 
             return result;
+        }
+
+        [TestCase(9, 2)]
+        [TestCase(529, 4)]
+        [TestCase(20, 1)]
+        [TestCase(15, 0)]
+        public void Tests(int input, int expectedResult)
+        {
+            Assert.AreEqual(expectedResult, BinaryGap(input));
         }
     }
 }

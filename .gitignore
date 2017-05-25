@@ -1,2 +1,5 @@
 .vs/
 Test/obj/
+packages/
+CoditySolutions/bin/
+CoditySolutions/obj/
