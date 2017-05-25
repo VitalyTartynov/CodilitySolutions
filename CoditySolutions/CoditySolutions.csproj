@@ -50,6 +50,7 @@
     <Compile Include="04 - Counting Elements\MissingInteger.cs" />
     <Compile Include="05 - Prefix Sums\PassingCars.cs" />
     <Compile Include="06 - Sorting\Distinct.cs" />
+    <Compile Include="06 - Sorting\MaxProductOfThree.cs" />
     <Compile Include="07 - Stacks and Queues\StoneWall.cs" />
     <Compile Include="05 - Prefix Sums\CountDiv.cs" />
     <Compile Include="02 - Arrays\CyclicRotation.cs" />
